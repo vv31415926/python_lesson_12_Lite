@@ -26,7 +26,7 @@ s = 0.0
 n = 0
 for it in items:
     for k,v in it.items():
-        print( k,v, type(v) )
+        #print( k,v, type(v) )
         if k == 'salary' and v != 'None':
             #print( '-------',type( v ), type(v['from']), type(v['to']), v['from'], v['to']  )
             try:
